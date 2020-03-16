@@ -1,0 +1,19 @@
+{
+  "name": "dstore",
+  "version": "1.0.0",
+  "description": "backend of dstore apis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dsore.pk"
+  ],
+  "author": "arbaz",
+  "license": "ISC",
+  "dependencies": {
+    "@woocommerce/woocommerce-rest-api": "^1.0.1",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}
