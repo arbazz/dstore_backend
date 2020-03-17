@@ -46,7 +46,7 @@ router.post('/createOrder', (req, res) => {
 router.get('/getOrder', (req, res) => {
 
 
-  api.get("orders", {customer: 2})
+  api.get("orders")
     .then((response) => {
       console.log(response.data);
     })

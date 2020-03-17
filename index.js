@@ -8,9 +8,9 @@ var bodyParser = require('body-parser')
 const port = 8443;
 
 const api = new WooCommerceRestApi({
-    url: "http://localhost/dstore/",
-    consumerKey: "ck_17169cc6fe7313ded1fd33d0d39e248ae77b3307",
-    consumerSecret: "cs_1d706ae7fa13a337297a47d31272ceafab21ccc4",
+    url: "http://hqce.tk/",
+    consumerKey: "ck_2b3458d1eddeb85e6224e04776d4c3e30691e527",
+    consumerSecret: "cs_69d87036a6533538c3895968f583065aaa033338",
     version: "wc/v3"
 });
 module.exports = api;
